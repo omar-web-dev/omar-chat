@@ -3,28 +3,25 @@ import { HiCheckCircle } from 'react-icons/hi2';
 
 const Conversation = () => {
     return (
-        <div className=''>
-
-            
-
+        <div >
             <div className='p-5 mt-10 text-center'>
                 <div className="w-36 mx-auto rounded-full">
                     <img className='rounded-full' src="https://placeimg.com/192/192/people" alt='user' />
                 </div>
                 <p className='text-4xl mt-3 mb-1'>Omar Faruk</p>
-                <p className=''>You're friends on Meta </p>
+                <p >You're friends on Meta </p>
             </div>
 
-            <div className=''>
+            <div >
                 <div className="justify-center avatar-group -space-x-6">
                     <div className="avatar">
                         <div className="w-14">
-                            <img src="https://placeimg.com/192/192/people" />
+                            <img src="https://placeimg.com/192/192/people" alt='a'/>
                         </div>
                     </div>
                     <div className="avatar">
                         <div className="w-14">
-                            <img src="https://placeimg.com/192/192/people" />
+                            <img src="https://placeimg.com/192/192/people" alt='a'/>
                         </div>
                     </div>
                 </div>

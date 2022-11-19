@@ -8,8 +8,8 @@ const ChatHome = () => {
         <div className='overflow-scroll '>
             <div className='p-[5%] pt-10'>
                     <UserProfile/>
-                    <ActiveFriends/>
-                    <ChatProfile/>
+                    {/* <ActiveFriends/> */}
+                    {/* <ChatProfile/> */}
             </div>
         </div>
     );

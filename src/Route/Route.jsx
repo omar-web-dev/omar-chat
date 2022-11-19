@@ -29,7 +29,8 @@ const route = createBrowserRouter([
                 element : <Login/>
             },
             {
-                path : 'inbox',
+                path : 'user-/:id',
+                loader : (param) =>  fetch(`http://localhost:5000/user-/${param._id}`),
                 element : <Inbox />
             },
         ]
